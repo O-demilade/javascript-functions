@@ -5,6 +5,7 @@ function seed() {
 };
 
 function same([x, y], [j, k]) {
+  // check if the arrays are the same
   return((x===j)&&(y===k));
 };
 
